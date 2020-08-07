@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <title>Home</title>
+
+</head>
+<body>
+        <div class="container">
+        <nav>
+            <div class="bars">
+            <a href="#" onclick="openslidemenu()" ><i class="fa fa-bars" ></i></a>
+        </div>
+
+            <div class="logo" >EZHIL ELANGO 
+        </div>
+            <ul class="nav-ul">
+                <li class="active"> <a href="#Home">Home</a> </li>
+                <li> <a  href="#Service">About</a> </li>
+                <li> <a  href="#Resume">Resume</a> </li>
+                <li> <a  href="#portfolio">Portfolio</a> </li>
+                <li> <a  href="#Contact">Contact</a> </li>
+            </ul>
+        </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#Home"         onclick="closeslidemenu()" >Home</a>
+            <a href="#Service"      onclick="closeslidemenu()" >Service</a>
+            <a href="#Resume"       onclick="closeslidemenu()" >Resume</a>
+            <a href="#portfolio"    onclick="closeslidemenu()" >Portfolio</a>
+            <a href="#Contact"      onclick="closeslidemenu()" >Contact</a>
+        </div>
+
+<!-- Home-->        
+<section id="Home">
+    <div class="move">
+        <h1 class="home-h1">hi my name is  EZHIL ELANGO, welcome to my page!
+</h1>
+
+<div class="name-animation">
+<h2>
+    <span class="txt-type" data-wait="3000" data-words='["gfx_designer","web_developer","ui/ux_designer"]' >
+    </span>
+</h2>
+</div>
+ <div class="contact-btn">
+    <p>contact me</p>  
+ </div>
+</div>
+</section>
+<!-- Home end--> 
+
+<!-- Service--> 
+<section id="Service">
+    <div class="profile">
+        <img src="./img/IMG-20200707-WA0005.jpg" alt="profile">
+    </div>
+    <div class="Service-notes">
+    <h1 class="Service-h1">My Little Story
+</h1>
+<p>I am Ezhil Elango. I am a simple , creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
+<!--
+
+    <div class="row">
+        
+        <div class="skillbar" data-percent="90%"> 
+            <h6 class="skillbar-title">Designing</h6> 
+            <h6 class="skillbar-percent">90%</h6>
+            <div class="skillbar-bar">
+                <div class="skillbar-child" onload= "animstart()" style ="width:90%;"></div>
+            </div>
+        </div>
+        <div class="skillbar" data-percent="80%"> 
+            <h6 class="skillbar-title">Programming</h6> 
+            <h6 class="skillbar-percent">80%</h6>
+            <div class="skillbar-bar">
+                <div class="skillbar-child" onload= "animstart()" style ="width:80%;"></div>
+            </div>
+        </div>
+        <div class="skillbar" data-percent="50%"> 
+            <h6 class="skillbar-title">Development</h6>
+            <h6 class="skillbar-percent">50%</h6> 
+            <div class="skillbar-bar">
+                <div class="skillbar-child" onload= "animstart()" style ="width:50%;"></div>
+            </div>
+        </div>
+        <div class="skillbar" data-percent="75%"> 
+            <h6 class="skillbar-title">Crafting</h6>
+            <h6 class="skillbar-percent">75%</h6> 
+            <div class="skillbar-bar">
+                <div class="skillbar-child"  onload= "animstart()" style ="width:75%;"></div>
+            </div>
+        </div>
+    -->
+   
+    <div class="skillbar">
+        <ul>
+            <li class="designing">Designing <span>90%</span></li>
+            <li class="programming">Programming<span>80%</span> </li>
+            <li class="developement">Development <span>50%</span></li>
+            <li class="crafting">Crafting <span>75%</span></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="offer">
+        <h3>What i offer</h3>
+        <div class="offer-items">
+            <div>
+                <i class="fas fa-compass"></i>
+                <div class="wraper"></div>
+                <p>Ui/Ux Design</p> 
+            </div>
+            <div>
+                <i class="fas fa-keyboard"></i>
+                <div class="wraper"></div>
+                <p>Web Design</p> 
+            </div>
+            <div>
+                <i class="fas fa-cogs"></i>
+                <div class="wraper"></div>
+                <p>Typography</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!-- Service end -->
+
+<!-- resume-->
+<section id="Resume">
+    <h1 class="Resume-h1">My Resume
+</h1>
+
+<div class="Resume-container">
+    <div class="col-md-6">
+        <ul class="resumes">
+            <li class="resume-item expr">
+                <h3>Full-Stack Developer</h3>
+                <h5>2018 - Present</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </li>
+            <li class="resume-item expr">
+                <h3>Back-End Developer</h3>
+                <h5>2016 - 1017</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </li>
+            <li class="resume-item expr">
+                <h3>Front-End Developer</h3>
+                <h5>2015 - 2016</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-6">
+        <ul class="resumes">
+            <li class="resume-item edu">
+                <h3>Phd in Web Design</h3>
+                <h5>2013 - 2015</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </li>
+            <li class="resume-item edu">
+                <h3>Masters in Web Design</h3>
+                <h5>2012 - 2013</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </li>
+            <li class="resume-item edu">
+                <h3>Bachelor in Web Design</h3>
+                <h5>2008 - 2012</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </li>
+        </ul>
+    </div>
+</div>
+</section>
+<!--resume end-->
+
+<!--poetfolio-->
+<section id="portfolio" >
+    <div class="port-inner">
+        <div class="port-name">
+            <h2>Portfolio</h2>
+        </div>
+            <div class="filter-btn">
+                <ul id="btn-ul">
+                    <li class="active" data-target="all">all</li>
+                    <li data-target="ui">ui design</li>
+                    <li data-target="web">web design</li>
+                    <li data-target="photography">photography</li>
+                </ul> 
+            </div>
+            <div class="port-gallery">
+                <div class="port-images">
+                    <div class="item" data-id="ui">
+                        <img src="./img/weather.jpg" alt="portfolio">
+                        <div class="overlay">
+                            <span class="fas fa-plus"></span>
+                            <h4>Project One</h4>
+                        </div>
+                    </div>
+                <div class="item" data-id="ui">
+                        <img src="./img/web1.jpg" alt="portfolio" >
+                        <div class="overlay">
+                            <span class="fas fa-plus"></span>
+                            <h4>Project two</h4>
+                        </div>
+                </div>
+                <div class="item" data-id="web">
+                    <img src="./img/test3.jpg" alt="portfolio" >
+                        <div class="overlay">
+                            <span class="fas fa-plus"></span>
+                            <h4>Project three</h4>
+                        </div>
+                    </div>
+                    <div class="item" data-id="ui">
+                        <img src="./img/mock.jpg" alt="portfolio" >
+                        <div class="overlay">
+                            <span class="fas fa-plus"></span>
+                            <h4>Project four</h4>
+                        </div>
+                    </div>
+                    <div class="item" data-id="web">
+                        <img src="./img/test5.jpg" alt="portfolio" >
+                        <div class="overlay">
+                            <span class="fas fa-plus"></span>
+                            <h4>Project five</h4>
+                        </div>
+                    </div>
+                    <div class="item" data-id="photography">
+                        <img src="./img/test6.jpg" alt="portfolio">
+                        <div class="overlay">
+                            <span class="fas fa-plus"></span>
+                            <h4>Project six</h4>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+</section>
+<!--  poetfolio end-->
+
+<div class="lightbox">
+    <span class="closelightbox"> &times;</span>
+    <img src="./img/test6.jpg" alt="portfolio">
+</div>
+<!--  Contact-->
+<section id="Contact">
+    <div class="showcase">
+        <h2>
+            "DREAM BIG, STAY POSITIVE, WORK HARD, AND ENJOY THE JOURNEY" <br><span>
+                -SOMEONE FAMOUS
+            </span>
+        </h2>
+</div>
+
+<div class="contact-box">
+    <div class="inner-box">
+        <div class="title">
+            <h1>Get in Touch</h1>
+        </div>
+        <form id="form"  method="POST" netlify>
+            <div class="text-box">
+                <input type="text" name="firstname" class="firstname" placeholder="Enter your full name *" autocomplete="off" required>
+                <input type="email" name="email" class="email" placeholder="Enter your email *" autocomplete="off" required > 
+            </div>
+           
+            <div class="message-box">
+                <textarea  class="message"  placeholder="Your message *" required></textarea>
+            </div>
+            <button type="submit">send message</button>
+        </form>
+    </div>
+</div>
+<div class="social">
+        <div class="icons">
+
+            <div class="icn">
+                <i class="fas fa-map-marker-alt"></i>
+                    <p>
+                        Chennai,TN
+                    </p>
+            </div>
+            <div class="icn">
+                <i class="fas  fa-envelope"></i>
+                    <p>
+                        ezhilmad@gmail.com
+                    </p>
+            </div>
+            <div class="icn">
+                <i class="fab fa-twitter-square"></i>
+                    <p>
+                        <a href="/">
+                        twitter
+                    </a>
+                    </p>
+            </div>
+            <div class="icn">
+                <i class="fab fa-facebook-square"></i>
+                    <p>
+                        <a href="https://www.facebook.com/ezhilmad">
+                        facebook
+                    </a>
+                    </p>
+            </div>
+            <div class="icn">
+                <i class="fab fa-github-square"></i>
+                <p>
+                    <a href="https://github.com/theREDbrad">
+                        github
+                    </a>
+                </p>
+            </div>
+            <div class="icn">
+                <i class="fab fa-linkedin"></i>
+                    <p> 
+                        <a href="https://www.linkedin.com/in/ezhil-elango-04216099/">
+                        linkedin
+                    </a>
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="social-quicklinks">
+        <h3>
+            Quick links
+        </h3>        
+        <ul>    
+               <li><a href="https://www.facebook.com/ezhilmad"></a>  Facebook</li>
+               <li><a href="https://github.com/theREDbrad"></a>  github </li>  
+               <li><a href="https://www.linkedin.com/in/ezhil-elango-04216099/"></a> linkedin</li>  
+               <li> Chennai, TN</li>  
+        </ul>
+
+    </div>
+    <footer>
+       <p>&copy; All Right Reserved By <span>theREDbrad</span> 2020</p> 
+    </footer>
+
+</section>
+<!--  Contact end-->
+</div>   
+
+<script src="./js/add.js"></script>
+
+</body>
+
+</html>
